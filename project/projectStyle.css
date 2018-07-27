@@ -1,0 +1,43 @@
+#header 
+
+a:link {
+color: rgb(214, 231, 183);
+}
+
+a:visited {
+color: rgb(207, 202, 245);
+}
+
+
+a:hover {
+color: red;
+}
+
+
+a:active {
+color: rgb(199, 205, 221);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
